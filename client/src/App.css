@@ -1,0 +1,40 @@
+
+.container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  background-color: #eee;
+}
+
+.App {
+  padding: 1rem;
+}
+
+.search_container {
+  background-color: #fff;
+  padding: 1rem 1.5rem;
+  border-radius: 10px;
+}
+
+.search_container input {
+  border: none;
+  font-size: 1rem;
+  padding: 8px 16px;
+  margin-left: 10px;
+}
+
+.list_container {
+  box-shadow: 1px 1px 10px rgb(167, 167, 167);
+  background-color: #fff;
+  height: 300px;
+  border-radius: 10px;
+  margin-top: 1rem;
+  list-style-type: none;
+  overflow-y: scroll;
+}
+
+.list_container li {
+  padding: 1rem;
+  border-bottom: 2px solid #eee;
+}
